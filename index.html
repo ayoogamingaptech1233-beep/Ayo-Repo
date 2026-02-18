@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>pro gaming site</title>
 </head>
 <body>
-    <h1 class="bg-dark">babba sain jeo lala sarkar</h1>
+    <h1 class="bg-dark">free fire</h1>
+
+    <nav class="navbar">
+    <div class="logo">AyanDev</div>
+
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <div class="menu-btn" onclick="toggleMenu()">☰</div>
+</nav>
+
+<script>
+function toggleMenu(){
+    document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
 </body>
 </html>
