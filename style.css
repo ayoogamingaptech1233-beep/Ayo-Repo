@@ -128,4 +128,24 @@ footer{
         width:100%;
         background:#000;
         flex-direction:column;
-        text-
+        text-align:center;
+        transition:0.3s;
+    }
+
+    .nav-links li{
+        margin:15px 0;
+    }
+
+    .nav-links.active{
+        left:0;
+    }
+
+    .menu-btn{
+        display:block;
+    }
+
+    .hero h1{
+        font-size:28px;
+    }
+
+}
